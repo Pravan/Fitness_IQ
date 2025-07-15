@@ -1,6 +1,5 @@
-package com.example.fit_iq.ui.theme
+package com.example.fit_iq.ui.Presentation
 
-import android.app.Activity
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
 // ColorScheme is not explicitly used as a type here, MaterialTheme handles it.
@@ -12,7 +11,6 @@ import androidx.compose.material3.dynamicLightColorScheme
 import androidx.compose.material3.lightColorScheme
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.platform.LocalContext
-import androidx.compose.material3.Typography
 
 // Assuming Color.kt defines these color variables:
 // e.g., val primaryLight = Color(0xFF...)
